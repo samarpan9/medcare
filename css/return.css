@@ -1,0 +1,54 @@
+.fas{
+	transform: rotate(90deg);
+}
+
+.return{
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.return h1{
+	margin-bottom: 15px;
+	color: #296d87;
+}
+
+.return_img{
+	margin-right: 35px;
+	float: right;
+}
+
+.policy{
+	width: 860px;
+}
+
+.not_accept{
+	margin-top: 30px;
+}
+
+.policy p{
+	font-size: 17px;
+	margin-bottom: 3px;
+}
+
+.policy h4{
+	margin-bottom: 6px;
+}
+
+.policy h5{
+	font-size: 17px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.policy a{
+	text-decoration: none;
+	color: #296d87;
+}
+
+.policy a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	margin-top: 30px;
+}

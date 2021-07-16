@@ -1,0 +1,51 @@
+
+.ambulance_content{
+	display: flex;
+	margin-top: -30px;
+	margin-left: 50px;
+}
+
+.ambulance_numbers{
+	display: flex;
+}
+
+.ambulance_contact{
+	margin-top: 140px;
+	margin-left: 40px;
+	text-align: center;
+	width: 600px;
+}
+
+.ambulance_contact h2{
+	color: grey;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+.ambulance_numbers{
+	margin-top: 50px;
+}
+
+.con{
+	margin-left: 80px;
+}
+
+.ambulance_numbers p{
+	margin-top: 8px;
+}
+
+.viber .fab{
+	color: indigo;
+}
+
+.whatsapp .fab{
+	color: green;
+}
+
+.ambulance_numbers p{
+	padding: 4px;
+}
+
+.fas, .fab{
+	margin-right: 10px;
+}

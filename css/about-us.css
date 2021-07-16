@@ -1,0 +1,97 @@
+
+.about-section{
+	margin-top: 70px;
+	margin-bottom: 140px;
+}
+
+.who_section img, .how_section img{
+	margin-left: -200px;
+	margin-top: -60px;
+}
+
+.about-section .who img{
+	margin-top: -100px;
+}
+
+.about-us{
+	display: flex;
+	margin-left: 280px;
+	margin-bottom: -100px;
+}
+
+.topic h2{
+	text-align: center;
+	margin-bottom: 10px;
+	color: #2385aa;
+}
+
+.who, .how{
+	padding-top: 100px;
+	padding-left: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.what{
+	margin-left: -400px;
+	margin-top: 100px;
+}
+
+.what p{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.about-section p{
+	font-size: 18px;
+}
+
+iframe{
+	margin-left: 330px;
+}
+
+.team{
+	margin-left: 380px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.team h2{
+	margin-left: 260px;
+	font-size: 34px;
+}
+
+.team a{
+	margin-left: 230px;
+}
+
+.team a:link, .team a:visited{
+  color: white;
+  padding-top: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+  height: 45px;
+  width: 140px;
+  border-radius: 2%;
+}
+
+.meet a:link, .meet a:visited{
+	background-color: #2385aa;
+}
+
+.meet a:hover, .meet a:active{
+	background-color: #42a89c;
+}
+
+.join a:link, .join a:visited{
+	background-color: #42a89c;
+}
+
+.join a:hover, .join a:active{
+	background-color: #2385aa;
+}
+
+
+

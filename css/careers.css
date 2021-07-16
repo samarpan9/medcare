@@ -1,0 +1,37 @@
+
+.careers{
+  margin-top: 40px;
+  margin-left: 100px;
+} 
+
+.careers h2{
+  font-size: 29px;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.careers .message{
+  margin-bottom: 8px;
+}
+
+.job_hr{
+  width: 405px;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.resume{
+  margin-top: 10px;
+  padding-top: 16px;
+  margin-bottom: 20px;
+}
+
+.resume label {
+  background-color: #04AA6D;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-left: 10px;
+}

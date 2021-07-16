@@ -1,0 +1,107 @@
+
+.category_type_name{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 500px;
+	margin-right: 500px;
+	border-radius: 8px;
+	padding-top: 10px;
+	height: 50px;
+	color: white;
+	background-image: linear-gradient(to right, #10aae3, #1e98c6, #2786aa, #2c748f, #2f6275);
+}
+
+.row{
+	display: flex;
+	margin-bottom: 30px;
+	display: flex;
+	height: 400px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2385aa;
+}
+
+.category_medicine{
+  width: 270px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.category_med_img{
+	width: 260px;
+	height: 220px;
+}
+
+.meds_name{
+	height: 50px;
+  	font-size: 20px;
+  	padding-left: 20px;
+  	padding-top: 20px;
+}
+
+.category_price{
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+.category_cart_div{
+  margin-left: 50px;
+  width: 150px;
+  padding-top: 10px;
+  padding-left: 25px;
+  height: 40px;
+  background-color: #2385aa;
+  border-radius: 25px;
+}
+
+.category_cart_div:hover {
+  background-color: #1ca5d9;
+}
+
+.category_cart{
+  width: 20px;
+  height: 40px;
+  margin-left: 85px;
+  margin-top: -30px;
+  display:block;
+}
+
+.category_medicine a{
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.category_medicine i{
+  margin-right: 10px;
+}
+
+.pagination {
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color:  #04AA6D;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}

@@ -1,0 +1,77 @@
+.contact_form{
+	display: flex;
+
+}
+
+.contact_form img{
+	margin-top: 10px;
+	width: 700px;
+}
+
+form{
+	margin-top: 80px;
+	background-color: white;
+	margin-left: 10px;
+	border: 1px solid black;
+	border-radius: 25px;
+	width: 400px;
+	height: 360px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+form h2{
+	font-size: 34px;
+	color: grey;
+	opacity: 90%;
+	text-align: center;
+}
+
+form input{
+	margin-top: 20px;
+
+}
+
+.contact_form form input, select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 25px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+form input:focus{
+	outline: none !important;
+	border-radius: 25px;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 25px;
+}
+
+textarea:focus { 
+  outline: none !important;	
+  border-radius: 25px;
+}
+
+form a{
+	margin-left: 140px;
+	font-size: 22px;
+	padding: 6px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	height: 30px;
+	background-color: #04AA6D;
+	border-radius: 5px;
+}
