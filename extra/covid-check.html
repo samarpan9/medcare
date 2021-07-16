@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/ce616e59a9.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/logo-single.png">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../css/covid-check.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<title>Covid check</title>
+</head>
+<body>
+	<!-- Section  1 -->
+	<header>
+		<div class="top_nav">
+			<div class="logo">
+				<a href="../index.html"><img src="../images/logo.png"></a>
+			</div>
+		    <div class="customer">
+				<div class="dropdown">
+			    	<button class="drop">Customer Care</button>
+			    	<div class="dropdown-content">
+				    	<p>01-5192653</p>
+			    		<p>9818983086</p>
+				      	<p>9846952015</p>
+				      	<p>info@medcare.com.np</p>
+			    	</div>
+			  	</div>
+			</div>
+			<div class="account">
+				<a  href="../account/login.html">Login</a>
+				<a href="../account/register.html">Register</a>
+			</div>
+		</div>
+		<div class="middle_nav">
+			<div class="service">
+				<a href="Ambulance.html">Ambulance</a>
+				<a href="https://onlinehealthcare.vercel.app/index.html">Doctor consultation</a>
+				<a href="https://iot-11.vercel.app/index.html">Articles</a>
+				<a href="covid-check.html">Covid Check</a>
+			</div>
+			<div class="social">
+	          	<a href="#"><img src="../images/social/icon-facebook.svg"></a>
+          		<a href="#"><img src="../images/social/icon-twitter.svg"></a>
+          		<a href="#"><img src="../images/social/icon-instagram.svg"></a>
+			</div>
+		</div>
+		<div class="bottom_nav">
+			<div class="search-container">
+		      	<input type="text" placeholder="Search.." name="search">
+	      		<button type="submit"><i class="fa fa-search"></i></button>
+      		</div>
+      		<div class="upload">
+      			<input type="file" id="actual-btn" hidden/>
+				<label for="actual-btn"> Upload Prescription</label>
+			</div>
+		</div>
+		<div class="category">
+			<a href="../category/covid-essentials.html">Covid Essentials</a>
+			<a href="../category/fitness.html">Fitness & Suppliments</a>
+			<a href="../category/devices.html">Healthcare Devices</a>
+			<a href="../category/mother.html">Mother & Baby</a>
+			<a href="../category/personal-care.html">Personal care</a>
+			<a href="../category/firstaid.html">First Aid</a>
+		</div>
+	</header>
+	<img class="doctor_checking" src="../images/covid-check.png">
+	<div class="form_covid_test">
+		<form>
+			<h2>Test for Covid-19!</h2><br>
+			<label for="location" >Pick Your Location</label><br>
+			<input type="text" id="location" name="location" required><br>
+			<label for="age">Enter Your Age</label><br>
+			<input type="number" id="age" name="age" required><br>
+			<label for="date">Enter date for test</label><br>
+			<input placeholder="MM/DD/YYYY" type="text" onfocus="(this.type='date')" id="date" required><br><br>
+			<label for="time">Enter time for test</label><br>
+			<input type="time" id="time" name="time" required><br><br>
+
+			<label for="symptoms">Reason for Covid-19 test?</label><br>
+			<input type="radio" name="reason" value="symptoms" required>
+			<label for="symptoms">I'm having Covid-19's symptoms.</label><br>
+			<input type="radio" name="reason" value="close_contact">
+			<label for="close_contact">I was in close contact with a Covid-19 patient.</label><br>
+			<input type="radio" name="reason" value="negative_check">
+			<label for="negative_check">Re-testing due to previous positive result.</label><br>
+			<input type="radio" name="reason" value="travel">
+			<label for="travel">I'm travelling abroad.</label><br>
+			<input type="radio" name="reason" value="other">
+			<label for="other">Other reason</label><br>
+
+			<p>Is there anything else you want to disclose?</p><br>
+			<textarea class="input1" name="message" value="anything_else"></textarea><br>
+			
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<table>
+		<tr>
+			<th>Days</th>
+			<th colspan="2">Time</th>
+		</tr>
+		<tr>
+			<td>Sunday</td>
+			<td>12PM - 2PM</td>
+			<td>5PM - 7PM</td>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td>8AM - 10AM</td>
+			<td>2PM - 5PM</td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td>6AM - 9AM</td>
+			<td>---</td>
+		</tr>
+		<tr>
+			<td>Wednesday</td>
+			<td>5PM - 6PM</td>
+			<td>7PM - 8PM</td>
+		</tr>
+		<tr>
+			<td>Thursday</td>
+			<td>6AM - 10AM</td>
+			<td>---</td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td>4PM - 6PM</td>
+			<td>7PM - 9PM</td>
+		</tr>
+		<tr>
+			<td>Saturday</td>
+			<td>10AM - 1Pm</td>
+			<td>3PM - 5PM</td>
+		</tr>
+	</table>
+	<footer>
+		<div class="upper_footer">
+			<div class="about">
+				<h2>Medcare</h2>
+				<p>Medcare is an online platform which aims to be every Nepalese personnel’s healthcare assistant. Using the strength of digital platform, Medcare has set its course on continuous development on digital healthcare services in order to make healthcare more accessible and affordable to Nepalese people. Today, Medcare showcases wide range of medicines, over the counter brands and lab services for you. It strives to reach every Nepalese household as much as possible, bringing essential health services at their doorsteps.
+			</div>
+			<div class="quick_link">
+				<h2>Quick Links</h2>
+				<ul>
+					<li><a href="../footer/about-us.html">About Us</a></li>
+					<li><a href="../footer/contact.html">Contact Us</a></li>
+					<li><a href="https://onlinehealthcare.vercel.app/index.html">Doctor Consultation</a></li>
+					<li><a href="../footer/faq.html">FAQs</a></li>
+					<li><a href="../footer/return.html">Return Policy</a></li>
+					<li><a href="../footer/team.html">Meet Our Team</a></li>
+					<li><a href="../footer/careers.html">Careers</a></li>
+				</ul>
+			</div>
+			<div class="blogs">
+				<h2>Latest Blogs</h2>
+				<ul>
+					<li><a href="https://iot-11.vercel.app/diabetes.html">What to know...</a></li>
+					<li><a href="https://iot-11.vercel.app/Cancer.html">Is cancer actually..</a></li>
+					<li><a href="https://iot-11.vercel.app/Alzheimers.html">Is Alzheimers actually..</a></li>
+				</ul>
+				<div class="blog_read_more">
+					<a href="https://iot-11.vercel.app/index.html">Read more..</a>
+				</div>
+			</div>
+			<div class="get_in_touch">
+				<h2>Get in Touch</h2>
+				<p><i class="fas fa-map-marker-alt"></i>Mega Complex, Thapathali, kathmandu</p>
+				<p><i class="fas fa-phone-alt"></i>01-5192653</p>
+				<p><i class="fas fa-envelope"></i>info@medcare.com.np</p>
+				<p><i class="fas fa-globe-americas"></i>medcare.com</p>
+			</div>
+		</div>
+		<hr class="footer_hr">
+		<div class="bottom_footer">
+			<p>Copyright &copy; Medcare 2021. All Rights Reserved.</p>
+			<p class="pay">We Accept</p>
+			<img src="../images/payment-methods.png">
+			<div class="social_white">	
+				<ul>
+					<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href=""><i class="fab fa-twitter"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
